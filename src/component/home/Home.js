@@ -37,7 +37,6 @@ const Home = () => {
     }
     const handleFilterClick = () => {
         setNewDummyData(filter(dummyData));
-
     }
 
     return (
